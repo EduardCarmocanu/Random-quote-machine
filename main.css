@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Raleway');
+body{
+/*	background-color: black;
+	color: white;*/
+	font-family: 'Raleway', sans-serif;
+	color: rgb(245, 245, 245);
+	background-color: rgb(10, 10, 10);
+	background-image: url('http://www.mrwallpaper.com/wallpapers/beach-2880x1800.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+h1, h2 ,h3 {
+	font-family: 'Amatic SC', cursive;
+}
+h1 {
+	font-size: 4em;
+	text-align: center;
+}
+
+header p {
+	text-align: center;
+	padding: 1vh 30vh 5vh 30vh;
+}
+section {
+	width: 100%;
+}
+section h2 {
+	text-align: center;
+}
+button {
+	display: block;
+	margin: 0 auto;
+	border: none;
+	background-color: yellow;
+	height: 20vh;
+	width: 20vh;
+	border-radius: 100%;
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5em;
+	transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
+	margin-top: -40px;
+	cursor: pointer;
+	box-shadow: 0 0 10px black;
+}
+button:hover {
+	transform: scale(1.2, 1.2);
+	box-shadow: 0 0 40px black;
+
+}
+button:focus {
+	outline: none;
+}
+footer {
+	text-align: center;
+}
+.quote-container {
+	padding: 5vh;
+	z-index: -1;
+	max-width: 60%;
+	margin: 0 auto;
+	border: 3px solid white;
+	/*border-radius: 5px;*/
+	background-color: rgba(0,0,0, 0.8);
+	transition: all 0.5s ease-out;
+}
+.FCC {
+	color: #006400;
+	text-decoration: none;
+}
+#twitter-share-button {
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+	font-weight: 600;
+	font-size: 1.3em;
+	background-color: #0084b4;
+	padding: 1vh;
+	border-radius: 5px;
+
+}
